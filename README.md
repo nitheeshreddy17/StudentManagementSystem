@@ -56,10 +56,8 @@ StudentManagementSystem/
 │ └── Main.java
 │
 ├── screenshots/
-│ └── add_student.png
 ├── .gitignore
 └── README.md
-
 
 
 ---
