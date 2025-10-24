@@ -39,7 +39,7 @@ This project demonstrates **object-oriented programming** and **CRUD operations*
 ---
 
 ## Folder Structure
-'''
+```
 StudentManagementSystem/
 ├── src/
 │ └── com/studentmanagement/
@@ -56,7 +56,7 @@ StudentManagementSystem/
 ├── screenshots/
 ├── .gitignore
 └── README.md 
-'''
+```
 ---
 
 ## Screenshots
