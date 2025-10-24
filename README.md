@@ -39,9 +39,8 @@ This project demonstrates **object-oriented programming** and **CRUD operations*
 ---
 
 ## Folder Structure
-
+'''
 StudentManagementSystem/
-│
 ├── src/
 │ └── com/studentmanagement/
 │ ├── Student.java
@@ -54,12 +53,10 @@ StudentManagementSystem/
 │ ├── TeacherMenu.java
 │ ├── CourseMenu.java
 │ └── Main.java
-│
 ├── screenshots/
 ├── .gitignore
-└── README.md
-
-
+└── README.md 
+'''
 ---
 
 ## Screenshots
