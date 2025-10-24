@@ -7,7 +7,7 @@ This project demonstrates object-oriented programming (OOP) concepts such as **e
 
 ## How to Run the Project
 
-1. Clone the repository:
+Clone the repository:
    ```bash
    git clone https://github.com/nitheeshreddy17/StudentManagementSystem.git
 Open the project in Eclipse IDE (or any Java IDE).
@@ -16,8 +16,7 @@ Ensure you have JDK 17 or above installed on your system.
 
 In Eclipse, navigate to:
 
-css
-Copy code
+
 src/com/studentmanagement/Main.java
 Right-click on Main.java → Run As → Java Application
 
@@ -30,8 +29,7 @@ Manage Teachers and Courses
 To exit the application, select the Exit option from the menu.
 
 Sample Output
-markdown
-Copy code
+
 ===== Student Management System =====
 1. Manage Students  
 2. Manage Teachers  
@@ -40,8 +38,8 @@ Copy code
 Enter your choice:
 
 Project Structure
-css
-Copy code
+
+
 StudentManagementSystem/
 │
 ├── src/
@@ -76,4 +74,4 @@ Author
 Nitheesh Reddy
 GitHub: nitheeshreddy17
 
-✅ This project is a beginner-friendly Java application designed to demonstrate practical OOP concepts and project structure management.
+This project is a beginner-friendly Java application designed to demonstrate practical OOP concepts and project structure management.
