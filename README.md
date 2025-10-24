@@ -1,77 +1,109 @@
 # Student Management System
 
-A simple **Core Java console-based application** that helps manage students, teachers, and courses.  
-This project demonstrates object-oriented programming (OOP) concepts such as **encapsulation, abstraction, and collections**.
+A **Java console application** for managing Students, Teachers, and Courses.  
+This project demonstrates **object-oriented programming** and **CRUD operations** in **Core Java**.
 
 ---
 
-## How to Run the Project
+## Features
 
-Clone the repository:
-   ```bash
-   git clone https://github.com/nitheeshreddy17/StudentManagementSystem.git
-Open the project in Eclipse IDE (or any Java IDE).
+### Student Management
+- Add Student
+- View All Students
+- Search Student by ID
+- Update Student details
+- Delete Student
 
-Ensure you have JDK 17 or above installed on your system.
+### Teacher Management
+- Add Teacher
+- View All Teachers
+- Search Teacher by ID
+- Update Teacher details
+- Delete Teacher
 
-In Eclipse, navigate to:
+### Course Management
+- Add Course
+- View All Courses
+- Search Course by ID
+- Update Course details
+- Delete Course
 
+---
 
-src/com/studentmanagement/Main.java
-Right-click on Main.java → Run As → Java Application
+## Sample Names Used
 
-The main menu will appear in the console. From there, you can:
+**Students:** Aarav Sharma, Priya Verma  
+**Teachers:** Rohit Kumar, Neha Verma  
+**Courses:** Java Programming, Python Programming
 
-Add, View, Update, or Delete Students
+---
 
-Manage Teachers and Courses
-
-To exit the application, select the Exit option from the menu.
-
-Sample Output
-
-===== Student Management System =====
-1. Manage Students  
-2. Manage Teachers  
-3. Manage Courses  
-4. Exit  
-Enter your choice:
-
-Project Structure
-
+## Folder Structure
 
 StudentManagementSystem/
 │
 ├── src/
-│   └── com/studentmanagement/
-│       ├── Course.java
-│       ├── CourseManager.java
-│       ├── CourseMenu.java
-│       ├── Main.java
-│       ├── Student.java
-│       ├── StudentManager.java
-│       ├── StudentMenu.java
-│       ├── Teacher.java
-│       ├── TeacherManager.java
-│       └── TeacherMenu.java
+│ └── com/studentmanagement/
+│ ├── Student.java
+│ ├── Teacher.java
+│ ├── Course.java
+│ ├── StudentManager.java
+│ ├── TeacherManager.java
+│ ├── CourseManager.java
+│ ├── StudentMenu.java
+│ ├── TeacherMenu.java
+│ ├── CourseMenu.java
+│ └── Main.java
 │
+├── screenshots/
+│ └── add_student.png
 ├── .gitignore
 └── README.md
 
-Concepts Used
 
-Object-Oriented Programming (OOP)
 
-Java Collections (ArrayList)
+---
 
-Encapsulation & Data Hiding
+## Screenshots
 
-Modular and Layered Design
+### Student Management
+- Student Menu: ![Student Menu](screenshots/student_menu.png)
+- Add Student: ![Add Student](screenshots/add_student.png)
+- View Students: ![View Students](screenshots/view_students.png)
+- Search Student: ![Search Student](screenshots/search_student.png)
+- Update Student: ![Update Student](screenshots/update_student.png)
+- Delete Student: ![Delete Student](screenshots/delete_student.png)
 
-Console-based Menu System
+### Teacher Management
+- Teacher Menu: ![Teacher Menu](screenshots/teacher_menu.png)
+- Add Teacher: ![Add Teacher](screenshots/add_teacher.png)
+- View Teachers: ![View Teachers](screenshots/view_teachers.png)
+- Search Teacher: ![Search Teacher](screenshots/search_teacher.png)
+- Update Teacher: ![Update Teacher](screenshots/update_teacher.png)
+- Delete Teacher: ![Delete Teacher](screenshots/delete_teacher.png)
+
+### Course Management
+- Course Menu: ![Course Menu](screenshots/course_menu.png)
+- Add Course: ![Add Course](screenshots/add_course.png)
+- View Courses: ![View Courses](screenshots/view_courses.png)
+- Search Course: ![Search Course](screenshots/search_course.png)
+- Update Course: ![Update Course](screenshots/update_course.png)
+- Delete Course: ![Delete Course](screenshots/delete_course.png)
+
+---
+
+## How to Run
+
+1. Clone the repository:  
+```bash
+git clone https://github.com/nitheeshreddy17/StudentManagementSystem.git
+Open in Eclipse or any Java IDE.
+
+Run Main.java as a Java Application.
+
+Navigate through Student, Teacher, and Course menus.
 
 Author
 Nitheesh Reddy
-GitHub: nitheeshreddy17
+Email: nitheeshreddy1705@gmail.com
 
-This project is a beginner-friendly Java application designed to demonstrate practical OOP concepts and project structure management.

@@ -15,7 +15,7 @@ public class Main {
         boolean exit = false;
 
         while (!exit) {
-            System.out.println("\n=== Student Management System ===");
+            System.out.println("\n---- Student Management System ----");
             System.out.println("1. Manage Students");
             System.out.println("2. Manage Teachers");
             System.out.println("3. Manage Courses");
